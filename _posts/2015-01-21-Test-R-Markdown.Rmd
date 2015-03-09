@@ -15,7 +15,7 @@ category: test
 ## Header generated automatically by TEMPLATE.Rmd.tpl
 ################################################################################
 library(knitr)
-baseDir <- "~/Documents/Blog/stefanavey.github.io"
+baseDir <- "~/Blog/robertamezquita.github.io"
 curDir <- file.path(baseDir, "_posts")
 setwd(curDir)
 imageDir <- paste0(curDir, "/images/")

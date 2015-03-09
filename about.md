@@ -3,10 +3,8 @@ layout: page
 title: About
 header: About
 group: navigation
-tagline: Stefantastic
+tagline: Ameztech
 ---
 {% include JB/setup %}
 
-I am a PhD Student in Computational Biology and Bioinformatics.  I plan to write about things that I encounter during my research that I find interesting and that I think others could benefit from.
-
-I plan to include topics specific to R and Emacs as well as posts of general Bioinformatics interest. 
+Robert Amezquita is a graduate student in the Department of Immunobiology, studying how immunological memory forms in response to infectious disease and vaccination. Serving as a Teaching Fellow for the Introduction to Immunobiology and Genomics Methods courses in the 2013-2014 academic year, Robert is intimately familiar with the challenges of introducing “big data” concepts to non-computational audiences, particularly in the realm of biology. Robert hails from the Department of Bioengineering at the University of California, San Diego. He is a proud father to two adorable “Pomimo” puppies, a part-time sous chef with his new fiance, and loves technology, football, and the great outdoors.

@@ -1,0 +1,13 @@
+
+http://robertamezquita.github.io/about.html
+http://robertamezquita.github.io/archive.html
+http://robertamezquita.github.io/atom.xml
+http://robertamezquita.github.io/categories.html
+http://robertamezquita.github.io/feed.r.xml
+http://robertamezquita.github.io/index.html
+http://robertamezquita.github.io/pages.html
+http://robertamezquita.github.io/rss.xml
+http://robertamezquita.github.io/sitemap.txt
+http://robertamezquita.github.io/tags.html
+
+http://robertamezquita.github.io/test/2015/01/21/Test-R-Markdown

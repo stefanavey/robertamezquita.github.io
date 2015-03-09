@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Test R Markdown</title>
+    
+    <meta name="author" content="Robert A. Amezquita">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/twitter-2.0/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css" media="screen">
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="/assets/themes/twitter-2.0/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter-2.0/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/twitter-2.0/css/syntax.css" rel="stylesheet" type="text/css">
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+ <meta name="google-translate-customization" content="47f381179a5facf3-96350382533ff336-gbdd3ba5670eecf51-f"></meta>
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="/">Ameztech</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              
+              
+              
+
+
+  
+    
+      
+      	
+      	<li><a href="/about.html">About</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+            </ul>
+	    <div id="google_translate_element"></div><script type="text/javascript">
+	      function googleTranslateElementInit() {
+	      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+	      }
+	    </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>Test R Markdown </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    
+<h1 id="test-functionality">Test functionality</h1>
+
+<h2 id="test-syntax-and-output-using-r">Test syntax and output using R</h2>
+
+<p>Simply run some R basic R code and finish</p>
+
+<div class="highlight"><pre><code class="language-r" data-lang="r"><span class="c1">## List the session information </span>
+sessionInfo<span class="p">()</span></code></pre></div>
+
+<div class="highlight"><pre><code class="language-text" data-lang="text">## R version 3.1.2 (2014-10-31)
+## Platform: x86_64-apple-darwin14.1.0 (64-bit)
+## 
+## locale:
+## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  base     
+## 
+## other attached packages:
+## [1] knitr_1.9
+## 
+## loaded via a namespace (and not attached):
+## [1] evaluate_0.5.5 formatR_1.0    stringr_0.6.2  tools_3.1.2</code></pre></div>
+
+<div class="highlight"><pre><code class="language-r" data-lang="r"><span class="c1">## Testing whether plots are included</span>
+plot<span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="m">10</span><span class="p">,</span> <span class="m">1</span><span class="o">:</span><span class="m">10</span><span class="p">)</span></code></pre></div>
+
+<p><img src="/images/../images/setup-1.png" alt="plot of chunk setup" /></p>
+
+<h2 id="test-syntax-and-output-using-elisp">Test syntax and output using elisp</h2>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="p">(</span><span class="n">defun</span> <span class="n">spa</span><span class="o">-</span><span class="n">find</span><span class="o">-</span><span class="n">gene</span><span class="o">-</span><span class="n">info</span> <span class="p">()</span>
+  <span class="s">&quot;Opens a browser to view gene annotation for the gene symbol near the point&quot;</span>
+<span class="p">(</span><span class="n">interactive</span><span class="p">)</span>
+    <span class="p">(</span><span class="n">let</span> <span class="p">(</span><span class="n">geneID</span><span class="p">)</span>
+    <span class="p">(</span><span class="n">setq</span> <span class="n">geneID</span> <span class="p">(</span><span class="n">thing</span><span class="o">-</span><span class="n">at</span><span class="o">-</span><span class="n">point</span> <span class="s">&#39;word))</span>
+<span class="p">(</span><span class="n">browse</span><span class="o">-</span><span class="n">url</span> <span class="p">(</span><span class="n">concatenate</span> <span class="s">&#39;string &quot;http://www.genecards.org/cgi-bin/carddisp.pl?gene=&quot; geneID)))</span>
+  <span class="p">)</span>
+  <span class="p">(</span><span class="k">global</span><span class="o">-</span><span class="nb">set</span><span class="o">-</span><span class="n">key</span> <span class="s">&quot;\C-cg&quot;</span> <span class="s">&#39;spa-find-gene-info)</span></code></pre></div>
+
+
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev disabled"><a>&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next disabled"><a>Next &rarr;</a>
+      
+      </ul>
+    </div>
+  </div>
+
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>21 January 2015</span></div>
+
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'robertamezquita'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+</div>
+
+
+      </div>
+
+      <footer>
+        <p>&copy; Robert A. Amezquita 2012
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/assets/themes/twitter-2.0/js/jquery.min.js"><\/script>')</script>
+    <script src="/assets/themes/twitter-2.0/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
+

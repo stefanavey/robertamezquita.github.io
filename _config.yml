@@ -8,13 +8,13 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Stefantastic
+title : Ameztech
 tagline: blog
 author :
-  name : Stefan Avey
+  name : Robert A. Amezquita
   # email : blah@email.test
-  github : stefanavey
-  # twitter : username
+  github : robertamezquita
+  twitter : raarjr
   # feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -25,7 +25,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://stefanavey.github.io
+production_url : http://robertamezquita.github.io
 
 ## The number of posts per page
 paginate: 3
@@ -84,7 +84,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : stefantastic
+      short_name : robertamezquita
   #   livefyre :
   #     site_id : 123
   #   intensedebate :
